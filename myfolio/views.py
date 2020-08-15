@@ -16,7 +16,6 @@ def home(request):
     return render(request, 'index.html', {})
 
 
-# Create your views here.
-#DataFlair #Send Email
+
 
 
