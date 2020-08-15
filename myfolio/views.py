@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from django.core.mail import BadHeaderError, send_mail
 from django.http import HttpResponse, HttpResponseRedirect, Http404
 from django.conf import settings
@@ -13,8 +13,7 @@ from django.core.mail import send_mail
 # Create your views here.
 
 def home(request):
-    return render(request, 'index.html', {})
-
+    return render(request, 'home.html', {})
 
 
 
