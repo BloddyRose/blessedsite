@@ -2,88 +2,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Coming Soon 2</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-<!--===============================================================================================-->	
-	<link rel="icon" type="image/png" href="{% static 'underbuild/images/icons/favicon.ico' %}"/>
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="{% static 'underbuild/vendor/bootstrap/css/bootstrap.min.css' %}">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="{% static 'underbuild/fonts/font-awesome-4.7.0/css/font-awesome.min.css' %}">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="{% static 'underbuild/vendor/animate/animate.css' %}">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="{% static 'underbuild/vendor/select2/select2.min.css' %}">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="{% static 'underbuild/css/util.css' %}">
-	<link rel="stylesheet" type="text/css" href="{% static 'underbuild/css/main.css' %}">
-<!--===============================================================================================-->
+    <title>Apps</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--===============================================================================================-->
+    <link rel="icon" type="image/png" href="{% static 'underbuild/images/icons/favicon.ico' %}"/>
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="{% static 'underbuild/vendor/bootstrap/css/bootstrap.min.css' %}">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css"
+          href="{% static 'underbuild/fonts/font-awesome-4.7.0/css/font-awesome.min.css' %}">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="{% static 'underbuild/vendor/animate/animate.css' %}">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="{% static 'underbuild/vendor/select2/select2.min.css' %}">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="{% static 'underbuild/css/util.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'underbuild/css/main.css' %}">
+    <!--===============================================================================================-->
 </head>
 <body>
-	
-	<!--  -->
-	<div class="simpleslide100">
-		<div class="simpleslide100-item bg-img1" style="background-image: url('{% static 'underbuild/images/bg01.jpg' %}');"></div>
-		<div class="simpleslide100-item bg-img1" style="background-image: url('{% static 'underbuild/images/bg02.jpg' %}');"></div>
-		<div class="simpleslide100-item bg-img1" style="background-image: url('{% static 'underbuild/images/bg03.jpg' %}');"></div>
-	</div>
 
-	<div class="size1 overlay1">
-		<!--  -->
-		<div class="size1 flex-col-c-m p-l-15 p-r-15 p-t-50 p-b-50">
-			<h3 class="l1-txt1 txt-center p-b-25">
-				Coming Soon
-			</h3>
+<!--  -->
+<div class="simpleslide100">
+    <div class="simpleslide100-item bg-img1"
+         style="background-image: url('{% static 'underbuild/images/bg01.jpg' %}');"></div>
+    <div class="simpleslide100-item bg-img1"
+         style="background-image: url('{% static 'underbuild/images/bg02.jpg' %}');"></div>
+    <div class="simpleslide100-item bg-img1"
+         style="background-image: url('{% static 'underbuild/images/bg03.jpg' %}');"></div>
+</div>
 
-			<p class="m2-txt1 txt-center p-b-48">
-				The Apps page is under construction, come back after few days!
-			</p>
+<div class="size1 overlay1">
+    <!--  -->
+    <br class="size1 flex-col-c-m p-l-15 p-r-15 p-t-50 p-b-50">
+    <p><h2>Download my YoutubeVideoDownloader to download youtube videos</h2> </p>
+    <a href="https://github.com/BloddyRose/YouTubeVideoDownloader/releases/download/v2.0/YTVD.msi" target="_blank" class="flex-c-m size3 s2-txt3 how-btn1 trans-04 where1">
+        Download YoutubeVideoDownloader
+    </a>
 
-			<div class="flex-w flex-c-m cd100 p-b-33">
-				<div class="flex-col-c-m size2 bor1 m-l-15 m-r-15 m-b-20">
-					<span class="l2-txt1 p-b-9 days">50</span>
-					<span class="s2-txt1">Days</span>
-				</div>
+    <br class="size1 flex-col-c-m p-l-15 p-r-15 p-t-50 p-b-50">
+    <p><h2>Download my Converter to convert youtube videos to songs</h2></p>
+    <a href="https://github.com/BloddyRose/Converter/releases/download/v2.0/ConverterSetup.msi" target="_blank" class="flex-c-m size3 s2-txt3 how-btn1 trans-04 where1">
+        Download Converter Mp4 To Mp3
+    </a>
 
-				<div class="flex-col-c-m size2 bor1 m-l-15 m-r-15 m-b-20">
-					<span class="l2-txt1 p-b-9 hours">24</span>
-					<span class="s2-txt1">Hours</span>
-				</div>
-
-				<div class="flex-col-c-m size2 bor1 m-l-15 m-r-15 m-b-20">
-					<span class="l2-txt1 p-b-9 minutes">60</span>
-					<span class="s2-txt1">Minutes</span>
-				</div>
-
-				<div class="flex-col-c-m size2 bor1 m-l-15 m-r-15 m-b-20">
-					<span class="l2-txt1 p-b-9 seconds">60</span>
-					<span class="s2-txt1">Seconds</span>
-				</div>
-			</div>
-				<a href="{% url 'home' %}" class="flex-c-m size3 s2-txt3 how-btn1 trans-04 where1">
-					Home
-				</a>
-		</div>
-	</div>
+    <br class="size1 flex-col-c-m p-l-15 p-r-15 p-t-50 p-b-50">
+    <a href="{% url 'home' %}" class="flex-c-m size3 s2-txt3 how-btn1 trans-04 where1">
+        Home
+    </a>
+</div>
 
 
-
-	
-
-<!--===============================================================================================-->	
-	<script src="{% static 'underbuild/vendor/jquery/jquery-3.2.1.min.js' %}"></script>
 <!--===============================================================================================-->
-	<script src="{% static 'underbuild/vendor/bootstrap/js/popper.js' %}"></script>
-	<script src="{% static 'underbuild/vendor/bootstrap/js/bootstrap.min.js' %}"></script>
+<script src="{% static 'underbuild/vendor/jquery/jquery-3.2.1.min.js' %}"></script>
 <!--===============================================================================================-->
-	<script src="{% static 'underbuild/vendor/select2/select2.min.js' %}"></script>
+<script src="{% static 'underbuild/vendor/bootstrap/js/popper.js' %}"></script>
+<script src="{% static 'underbuild/vendor/bootstrap/js/bootstrap.min.js' %}"></script>
 <!--===============================================================================================-->
-	<script src="{% static 'underbuild/vendor/countdowntime/moment.min.js' %}"></script>
-	<script src="{% static 'underbuild/vendor/countdowntime/moment-timezone.min.js' %}"></script>
-	<script src="{% static 'underbuild/vendor/countdowntime/moment-timezone-with-data.min.js' %}"></script>
-	<script src="{% static 'underbuild/vendor/countdowntime/countdowntime.js' %}"></script>
-	<script>
+<script src="{% static 'underbuild/vendor/select2/select2.min.js' %}"></script>
+<!--===============================================================================================-->
+<script src="{% static 'underbuild/vendor/countdowntime/moment.min.js' %}"></script>
+<script src="{% static 'underbuild/vendor/countdowntime/moment-timezone.min.js' %}"></script>
+<script src="{% static 'underbuild/vendor/countdowntime/moment-timezone-with-data.min.js' %}"></script>
+<script src="{% static 'underbuild/vendor/countdowntime/countdowntime.js' %}"></script>
+<script>
 		$('.cd100').countdown100({
 			/*Set Endtime here*/
 			/*Endtime must be > current time*/
@@ -97,16 +80,18 @@
 			// ex:  timeZone: "America/New_York"
 			//go to " http://momentjs.com/timezone/ " to get timezone
 		});
-	</script>
+
+</script>
 <!--===============================================================================================-->
-	<script src="{% static 'underbuild/vendor/tilt/tilt.jquery.min.js' %}"></script>
-	<script >
+<script src="{% static 'underbuild/vendor/tilt/tilt.jquery.min.js' %}"></script>
+<script>
 		$('.js-tilt').tilt({
 			scale: 1.1
 		})
-	</script>
+
+</script>
 <!--===============================================================================================-->
-	<script src="{% static 'underbuild/js/main.js' %}"></script>
+<script src="{% static 'underbuild/js/main.js' %}"></script>
 
 </body>
 </html>
